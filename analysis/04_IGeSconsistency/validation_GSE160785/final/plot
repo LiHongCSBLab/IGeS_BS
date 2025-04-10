@@ -1,0 +1,247 @@
+nohup: ignoring input
+Warning message:
+package ‘ggplotify’ was built under R version 4.0.5 
+
+Attaching package: ‘patchwork’
+
+The following object is masked from ‘package:cowplot’:
+
+    align_plots
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+The following objects are masked from ‘package:reshape2’:
+
+    dcast, melt
+
+Loading required package: GGally
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+No protocol specified
+No protocol specified
+Warning message:
+In fun(libname, pkgname) : couldn't connect to display ":0"
+Warning message:
+In dir.create(savepath) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_new' already exists
+Warning message:
+In dir.create(savepath) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en' already exists
+Warning message:
+In dir.create(paste0(savepath, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en' already exists
+Warning message:
+In dir.create(paste0(savepath, "/", dataset, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138' already exists
+Warning message:
+In dir.create(paste0(savepath, "/", dataset, "/", datatype, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes' already exists
+Warning message:
+In dir.create(paste0(savepath, "/", dataset, "/", datatype, "/",  :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes/COAD_Primary' already exists
+Joining, by = "immune_sig"
+Scale for 'size' is already present. Adding another scale for 'size', which
+will replace the existing scale.
+Scale for 'size' is already present. Adding another scale for 'size', which
+will replace the existing scale.
+Joining, by = "immune_sig"
+Scale for 'size' is already present. Adding another scale for 'size', which
+will replace the existing scale.
+Scale for 'size' is already present. Adding another scale for 'size', which
+will replace the existing scale.
+Warning messages:
+1: In dir.create(savepath) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en' already exists
+2: In dir.create(paste0(savepath, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en' already exists
+3: In dir.create(paste0(savepath, "/", dataset, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138' already exists
+4: In dir.create(paste0(savepath, "/", dataset, "/", datatype)) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes' already exists
+5: In dir.create(paste0(savepath, "/", dataset, "/", datatype, "/",  :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes/COAD_Primary' already exists
+6: In dir.create(paste0(savepath, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en' already exists
+7: In dir.create(paste0(savepath, "/", dataset, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138' already exists
+8: In dir.create(paste0(savepath, "/", dataset, "/", datatype)) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes' already exists
+9: In dir.create(paste0(savepath, "/", dataset, "/", datatype, "/",  :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes/COAD_Primary' already exists
+Warning message:
+In dir.create(savepath2) :
+  '/picb/bigdata/project/FengFYM/p2_1_immunotherapy_targetedtherapy/r3_individual_datasets_validation/data/drugITS_meta_oe_original' already exists
+Warning messages:
+1: In dir.create(paste0(save_path, dataset, "/")) :
+  '/picb/bigdata/project/FengFYM/p2_1_immunotherapy_targetedtherapy/r3_individual_datasets_validation/data/drugITS_meta_oe_original/70138' already exists
+2: In dir.create(paste0(save_path, dataset, "/", datatype, "/")) :
+  '/picb/bigdata/project/FengFYM/p2_1_immunotherapy_targetedtherapy/r3_individual_datasets_validation/data/drugITS_meta_oe_original/70138/allgenes' already exists
+Warning message:
+In dir.create(paste0("result_", GEO_ID)) :
+  'result_GSE160785' already exists
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj1' already exists
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj1/COAD_Primary' already exists
+Warning message:
+In dir.create(savepath) :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj1/COAD_Primary/drug989' already exists
+[1] ""
+Joining, by = "immunesig"
+Joining, by = "Group.1"
+Joining, by = "Group.1"
+Warning message:
+In melt(merged_score, id.vars = c("Group.1", "sign", "label")) :
+  The melt generic in data.table has been passed a data.frame and will attempt to redirect to the relevant reshape2 method; please note that reshape2 is deprecated, and this redirection is now deprecated as well. To continue using melt methods from reshape2 while both libraries are attached, e.g. melt.list, you can prepend the namespace like reshape2::melt(merged_score). In the next version, this warning will become an error.
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.1' already exists
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.1/COAD_Primary' already exists
+Warning message:
+In dir.create(savepath) :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.1/COAD_Primary/drug989' already exists
+[1] ""
+Joining, by = "immunesig"
+Joining, by = "Group.1"
+Joining, by = "Group.1"
+Warning message:
+In melt(merged_score, id.vars = c("Group.1", "sign", "label")) :
+  The melt generic in data.table has been passed a data.frame and will attempt to redirect to the relevant reshape2 method; please note that reshape2 is deprecated, and this redirection is now deprecated as well. To continue using melt methods from reshape2 while both libraries are attached, e.g. melt.list, you can prepend the namespace like reshape2::melt(merged_score). In the next version, this warning will become an error.
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.05' already exists
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.05/COAD_Primary' already exists
+Warning message:
+In dir.create(savepath) :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.05/COAD_Primary/drug989' already exists
+[1] ""
+Joining, by = "immunesig"
+Joining, by = "Group.1"
+Joining, by = "Group.1"
+Warning message:
+In melt(merged_score, id.vars = c("Group.1", "sign", "label")) :
+  The melt generic in data.table has been passed a data.frame and will attempt to redirect to the relevant reshape2 method; please note that reshape2 is deprecated, and this redirection is now deprecated as well. To continue using melt methods from reshape2 while both libraries are attached, e.g. melt.list, you can prepend the namespace like reshape2::melt(merged_score). In the next version, this warning will become an error.
+Warning message:
+In dir.create(savepath) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_new' already exists
+Warning message:
+In dir.create(savepath) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en' already exists
+Warning message:
+In dir.create(paste0(savepath, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en' already exists
+Warning message:
+In dir.create(paste0(savepath, "/", dataset, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138' already exists
+Warning message:
+In dir.create(paste0(savepath, "/", dataset, "/", datatype, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes' already exists
+Warning message:
+In dir.create(paste0(savepath, "/", dataset, "/", datatype, "/",  :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes/READ_Primary' already exists
+Joining, by = "immune_sig"
+Scale for 'size' is already present. Adding another scale for 'size', which
+will replace the existing scale.
+Scale for 'size' is already present. Adding another scale for 'size', which
+will replace the existing scale.
+Joining, by = "immune_sig"
+Scale for 'size' is already present. Adding another scale for 'size', which
+will replace the existing scale.
+Scale for 'size' is already present. Adding another scale for 'size', which
+will replace the existing scale.
+Warning messages:
+1: In dir.create(savepath) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en' already exists
+2: In dir.create(paste0(savepath, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en' already exists
+3: In dir.create(paste0(savepath, "/", dataset, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138' already exists
+4: In dir.create(paste0(savepath, "/", dataset, "/", datatype)) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes' already exists
+5: In dir.create(paste0(savepath, "/", dataset, "/", datatype, "/",  :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes/READ_Primary' already exists
+6: In dir.create(paste0(savepath, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en' already exists
+7: In dir.create(paste0(savepath, "/", dataset, "/")) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138' already exists
+8: In dir.create(paste0(savepath, "/", dataset, "/", datatype)) :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes' already exists
+9: In dir.create(paste0(savepath, "/", dataset, "/", datatype, "/",  :
+  '06_results_summaryandplotting/results_meta_oe_original/TUMERIC_m2_meta_weight_ACATP0.05_en//70138/allgenes/READ_Primary' already exists
+Warning message:
+In dir.create(savepath2) :
+  '/picb/bigdata/project/FengFYM/p2_1_immunotherapy_targetedtherapy/r3_individual_datasets_validation/data/drugITS_meta_oe_original' already exists
+Warning messages:
+1: In dir.create(paste0(save_path, dataset, "/")) :
+  '/picb/bigdata/project/FengFYM/p2_1_immunotherapy_targetedtherapy/r3_individual_datasets_validation/data/drugITS_meta_oe_original/70138' already exists
+2: In dir.create(paste0(save_path, dataset, "/", datatype, "/")) :
+  '/picb/bigdata/project/FengFYM/p2_1_immunotherapy_targetedtherapy/r3_individual_datasets_validation/data/drugITS_meta_oe_original/70138/allgenes' already exists
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj1' already exists
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj1/READ_Primary' already exists
+Warning message:
+In dir.create(savepath) :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj1/READ_Primary/drug989' already exists
+[1] ""
+Joining, by = "immunesig"
+Joining, by = "Group.1"
+Joining, by = "Group.1"
+Warning message:
+In melt(merged_score, id.vars = c("Group.1", "sign", "label")) :
+  The melt generic in data.table has been passed a data.frame and will attempt to redirect to the relevant reshape2 method; please note that reshape2 is deprecated, and this redirection is now deprecated as well. To continue using melt methods from reshape2 while both libraries are attached, e.g. melt.list, you can prepend the namespace like reshape2::melt(merged_score). In the next version, this warning will become an error.
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.1' already exists
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.1/READ_Primary' already exists
+Warning message:
+In dir.create(savepath) :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.1/READ_Primary/drug989' already exists
+[1] ""
+Joining, by = "immunesig"
+Joining, by = "Group.1"
+Warning message:
+In melt(merged_score, id.vars = c("Group.1", "sign", "label")) :
+  The melt generic in data.table has been passed a data.frame and will attempt to redirect to the relevant reshape2 method; please note that reshape2 is deprecated, and this redirection is now deprecated as well. To continue using melt methods from reshape2 while both libraries are attached, e.g. melt.list, you can prepend the namespace like reshape2::melt(merged_score). In the next version, this warning will become an error.
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.05' already exists
+Warning message:
+In dir.create(paste0("result_", GEO_ID, "/drug_immunesig_", purity_method,  :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.05/READ_Primary' already exists
+Warning message:
+In dir.create(savepath) :
+  'result_GSE160785/drug_immunesig_TUMERIC_GSEA_result_r0.4_meta_oe_original_en_padj0.05/READ_Primary/drug989' already exists
+[1] ""
+Joining, by = "immunesig"
+Joining, by = "Group.1"
+Warning message:
+In melt(merged_score, id.vars = c("Group.1", "sign", "label")) :
+  The melt generic in data.table has been passed a data.frame and will attempt to redirect to the relevant reshape2 method; please note that reshape2 is deprecated, and this redirection is now deprecated as well. To continue using melt methods from reshape2 while both libraries are attached, e.g. melt.list, you can prepend the namespace like reshape2::melt(merged_score). In the next version, this warning will become an error.

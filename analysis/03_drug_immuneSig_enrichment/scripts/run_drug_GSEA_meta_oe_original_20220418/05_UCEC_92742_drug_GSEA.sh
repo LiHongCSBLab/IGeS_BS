@@ -1,0 +1,24 @@
+#!/bin/bash
+# run under miniconda environment r_env
+source /home/fengfangyoumin/miniconda3/bin/activate r_env
+cd /picb/bigdata/project/FengFYM/p2_1_immunotherapy_targetedtherapy/r1_drug_immuneSig_correlation_analysis/03_drug_immuneSig_enrichment/scripts/
+
+#####======================================================================#####
+#####                      pan-cancer: Primary pcor                        #####
+#####======================================================================#####
+
+cancer=UCEC
+sampleType=Primary
+
+tumor_purity_method=TUMERIC
+
+bash 04_drug_immusig_GSEA_pipeline.sh ${cancer} ${sampleType} ${tumor_purity_method} spearman 92742
+wait
+bash 04_drug_immusig_GSEA_pipeline_978genes.sh ${cancer} ${sampleType} ${tumor_purity_method} spearman 92742
+
+# tumor_purity_method=CPE
+# # echo "start running for ${cancer} ${sampleType} ${tumor_purity_method}"
+# bash 04_drug_immusig_GSEA_pipeline_978genes.sh ${cancer} ${sampleType} ${tumor_purity_method} spearman 92742
+# # wait
+# bash 04_drug_immusig_GSEA_pipeline.sh ${cancer} ${sampleType} ${tumor_purity_method} spearman 92742
+# wait

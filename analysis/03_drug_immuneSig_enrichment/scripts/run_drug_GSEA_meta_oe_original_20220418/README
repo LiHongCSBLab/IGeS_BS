@@ -1,0 +1,12 @@
+If you want to run the scripts here, please move the scripts to 
+	path=/picb/bigdata/project/FengFYM/p2_1_immunotherapy_targetedtherapy/r1_drug_immuneSig_correlation_analysis/03_drug_immuneSig_enrichment/scripts
+
+
+20220211 UPDATE:
+1) merged ITS which is regenerated ITSs with TCGA recompute TPM matrix 
+    (rawcounts -> genelength corrected TPM), path:
+    /picb/bigdata/project/FengFYM/p2_1_immunotherapy_targetedtherapy/r1_drug_immuneSig_correlation_analysis/03_drug_immuneSig_enrichment/data/ITS_mclust_Otsuka_Ochiai_TUMERIC_spearman_r_0.4_ITSproof_2_genevote_0.5
+
+2) run 70138 and 92742 with merged ITSs
+3) if tumor purity generated from TUMERIC method is not available, 
+    use CPE as tumor purity generating method, i.e. SKCM Primary

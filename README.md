@@ -101,9 +101,7 @@ Due to size constraints, the datasets used in this study are hosted externally. 
 | ------------------------------- | -------------------------------------------------------------------------------------- |
 | GSE70138 data                   | [Download from GEO-GSE70138](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138) |
 | GSE92742 dataset                | [Download from GEO-GSE92742](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742) |
-| ICB cohorts for IGeS-EN model   | [Download from Zenodo or Figshare (update links))](https://figshare.com/...)              |
-| public available mouse model    | [Download from Zenodo or Figshare (update links))](https://figshare.com/...)              |
-| in-house mouse experiment data | [Download from Zenodo or Figshare (update links))](https://figshare.com/...)              |
+| in-house mouse experiment data | [Download from NODE [National Omics Data Encyclopedia](https://www.biosino.org/node/project/detail/OEP0000602 |
 
 > **Note:** Please cite the corresponding data repository when using these datasets in your work.
 
@@ -139,7 +137,7 @@ This project is licensed under the [MIT License / GPL-3.0 / Other]. See the `LIC
 
 For questions or feedback, please contact:
 
-**[Your Name]**
+Li Hong
 
 Email: lihong01@sinh.ac.cn
 

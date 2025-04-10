@@ -34,7 +34,7 @@ A full list of R library dependencies for environment setup can be found in `env
 clone IGeS-BS local folder:
 
 ```bash
-git clone https://github.com/yourusername/IGeS_BS.git
+git clone https://github.com/LiHongCSBLab/IGeS_BS.git
 cd IGeS_BS_tool
 ```
 
@@ -141,6 +141,6 @@ For questions or feedback, please contact:
 
 **[Your Name]**
 
-Email: [[your.email@domain.com](mailto:your.email@domain.com)]
+Email: lihong01@sinh.ac.cn
 
-Affiliation: [Institution Name]
+Affiliation: Shanghai Institute of Nutrition and Health
